@@ -77,7 +77,7 @@ export const Stash = () => {
             <img src={versus} alt="" />
           </div>
           <div className="phone-bg col-12 col-sm-12 col-md-4 col-lg-4 p-4 mt-4">
-            <img className="w-50 mt-4" src={phonebg} alt="" />
+            <img className="w-50 mt-2" src={phonebg} alt="" />
             <p className="fw-bold text-white mt-4">Savings Tailored For You</p>
             <small className="text-white">
               Mustard solves problems by providing robust interest rate,
