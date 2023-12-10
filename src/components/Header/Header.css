@@ -1,0 +1,43 @@
+.logo {
+  height: 30px;
+}
+
+.contact-btn {
+  border: 1px solid green;
+  /* width: 100%; */
+  padding: 0.4rem;
+  background-color: transparent;
+  border-radius: 5px;
+  color: green;
+  transition: all 0.3s;
+}
+.download-btn {
+  border: 1px solid green;
+  width: 100%;
+  padding: 0.4rem;
+  background-color: transparent;
+  border-radius: 5px;
+  color: green;
+  transition: all 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: green;
+  color: white;
+}
+.download-btn:hover {
+  background-color: green;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 20px;
+  }
+
+  .contact-btn,
+  .download-btn {
+    width: 100%;
+    /* display: block; */
+  }
+}
