@@ -15,7 +15,11 @@
 }
 
 .stash-row {
-  text-align: center;
+  /* text-align: center; */
+}
+
+.versus{
+    margin: auto;
 }
 
 @media (max-width: 768px) {
