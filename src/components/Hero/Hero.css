@@ -67,10 +67,10 @@ span {
     width: 100%;
   }
 
-  .sub-text {
+  /* .sub-text {
     border-bottom: 1px solid rgba(255, 255, 255, 0.288);
     border-right: none;
-  }
+  } */
 
   .play-store,
   .apple-store {
@@ -87,8 +87,8 @@ span {
     margin-bottom: 10px;
   }
 
-  .sub-text {
+  /* .sub-text {
     border-bottom: 1px solid rgba(255, 255, 255, 0.288);
     border-right: none;
-  }
+  } */
 }
