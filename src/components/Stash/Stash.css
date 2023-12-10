@@ -5,6 +5,7 @@
 .stash-small {
   padding-left: 10px;
   font-size: 12px;
+  text-align: left;
   /* opacity: 0.3; */
 }
 
@@ -15,11 +16,18 @@
 }
 
 .stash-row {
-  /* text-align: center; */
+  justify-content: center;
+  text-align: center;
 }
 
-.versus{
-    margin: auto;
+.versus {
+  margin: auto;
+}
+
+.phone-bg {
+  background-color: rgba(0, 128, 0, 0.555);
+  height: 65vh;
+  border-radius: 20px;
 }
 
 @media (max-width: 768px) {
