@@ -19,6 +19,8 @@
   border-radius: 5px;
   color: green;
   transition: all 0.3s;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .contact-btn:hover {
@@ -29,6 +31,9 @@
   background-color: green;
   color: white;
 }
+
+
+/* Responsiveness */
 
 @media (max-width: 768px) {
   .logo {

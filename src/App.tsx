@@ -1,6 +1,7 @@
 // import { Fragment } from 'react'
 import { Header } from './components/Header/Header'
-import './App.css'
+import { Hero } from './components/Hero/Hero'
+import { Stash } from './components/Stash/Stash'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -9,6 +10,8 @@ function App() {
     
       <div>
         <Header />
+        <Hero />
+        <Stash />
     </div>
   )
 }

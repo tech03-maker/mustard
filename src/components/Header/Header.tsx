@@ -7,7 +7,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 export const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary p-4">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img className="logo" src={logo} alt="" />
@@ -31,8 +31,8 @@ export const Header = () => {
                   Contact
                 </button>
               </div>
-              <div className="col-6">
-                <button className="download-btn" type="submit">
+              <div className="col-6 ">
+                <button className="download-btn " type="submit">
                   <FontAwesomeIcon icon={faDownload} />{" "}
                 </button>
               </div>
