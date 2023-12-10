@@ -17,3 +17,15 @@
 .stash-row {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .versus {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .versus {
+    display: none;
+  }
+}
