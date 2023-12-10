@@ -52,13 +52,13 @@ export const Hero = () => {
       <div className="subscribers text-center">
         <div className="row">
           <div className="sub-text col-4 col-sm-4 col-md-4 col-lg-4">
-            <h4>5K+ User</h4>
+            <p>5K+ User</p>
           </div>
           <div className="sub-text col-4 col-sm-4 col-md-4 col-lg-4">
-            <h4>17K+ Transactions</h4>
+            <p>17K+ Transactions</p>
           </div>
           <div className="col-4 col-sm-4 col-md-4 col-lg-4">
-            <h4>₦86M Deposits</h4>
+            <p>₦86M Deposits</p>
           </div>
         </div>
       </div>

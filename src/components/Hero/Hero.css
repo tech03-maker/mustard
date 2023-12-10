@@ -38,6 +38,7 @@ span {
   padding-left: 7px;
 }
 
+
 .subscribers {
   /* background-color: aqua; */
   background: linear-gradient(
@@ -52,7 +53,7 @@ span {
   color: white;
 }
 
-.subscribers h4 {
+.subscribers p {
   font-weight: 600;
   padding-top: 1rem;
 }
@@ -77,6 +78,16 @@ span {
     width: 100%;
     margin-bottom: 10px;
   }
+
+  .subscribers p {
+    font-size: 18px;
+    padding-top: 0.5rem;
+  }
+
+  .sub-text {
+    border-right: 1px solid rgba(255, 255, 255, 0.288);
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 576px) {
@@ -87,8 +98,8 @@ span {
     margin-bottom: 10px;
   }
 
-  /* .sub-text {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.288);
-    border-right: none;
-  } */
+  .subscribers p {
+    font-size: 9px;
+    padding-top: 0.25rem;
+  }
 }

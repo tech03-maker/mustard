@@ -1,3 +1,19 @@
 .stash {
   color: rgb(12, 168, 46);
 }
+
+.stash-small {
+  padding-left: 10px;
+  font-size: 12px;
+  /* opacity: 0.3; */
+}
+
+.x-bg {
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.stash-row {
+  text-align: center;
+}
