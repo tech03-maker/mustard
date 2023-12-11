@@ -1,0 +1,21 @@
+.phone-bg-orange {
+  background-color: rgba(255, 182, 25, 0.568);
+  /* height: 65vh; */
+  border-radius: 20px;
+}
+
+footer {
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center !important;
+  margin: auto !important;
+}
+
+.socials1 {
+  border-right: 1px solid grey;
+}
