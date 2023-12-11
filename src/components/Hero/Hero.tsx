@@ -36,7 +36,7 @@ export const Hero = () => {
                     type="button"
                   >
                     <FontAwesomeIcon className="icon" icon={faAppleAlt} />
-                    <span>Play Store</span>
+                    <span>Apple Store</span>
                   </button>
                 </a>
               </div>

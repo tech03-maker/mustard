@@ -1,0 +1,17 @@
+.left-green {
+  padding-top: 7rem;
+}
+
+.left-green h4 {
+  font-weight: bold;
+}
+
+.left-green p {
+  font-size: 15px;
+  font-weight: light;
+  padding-top: 1rem;
+}
+
+.green {
+  border-radius: 15px;
+}
