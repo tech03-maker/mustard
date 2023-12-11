@@ -46,7 +46,7 @@ export const PaymentType = () => {
               </div>
             </div>
           </div>
-          <div className="Mustard-atm col-12 col-sm-12 col-md-6 col-lg-6">
+          <div className="Mustard-atm col-12 col-sm-12 col-md-6 col-lg-6 mt-4">
             <img className="w-100" src={atm} alt="" />
           </div>
         </div>

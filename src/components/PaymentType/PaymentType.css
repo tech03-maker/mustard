@@ -15,3 +15,33 @@
 .green {
   border-radius: 15px;
 }
+
+/* Responsive styles for screens between 577px and 768px (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .left-green {
+    padding-top: 5rem; /* Adjust padding for medium screens */
+  }
+
+  .left-green h4 {
+    font-size: 2rem; /* Adjust font size for medium screens */
+  }
+
+  .left-green p {
+    font-size: 15px; /* Keep font size unchanged for medium screens */
+  }
+}
+
+/* Responsive styles for screens larger than 768px (laptops and above) */
+@media (min-width: 769px) {
+  .left-green {
+    padding-top: 7rem; /* Keep original padding for larger screens */
+  }
+
+  .left-green h4 {
+    font-size: 2.5rem; /* Adjust font size for larger screens */
+  }
+
+  .left-green p {
+    font-size: 16px; /* Adjust font size for larger screens */
+  }
+}
